@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translate>
+    
+    <lang iso="en">
+        
+        <title>PAGEneration MVC Project</title>
+        <text>Hello world!</text>
+        
+    </lang>
+    
+    <lang iso="it">
+        
+        <title>PAGEneration MVC progetto</title>
+        <text>Hello world!</text>
+        
+    </lang>
+    
+    <lang iso="pl">
+        
+        <title>PAGEneration MVC projekt</title>
+        <text>Hello world!</text>
+        
+    </lang>
+    
+</translate>

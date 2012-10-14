@@ -1,0 +1,22 @@
+#
+# .htaccess
+#
+# Log:
+# - v0.0.1 2011-12-19 the first version
+#
+# @version 0.0.1
+# @date 2011-12-19
+# @author Michal Luberda <michal.luberda@appcom.it>
+#
+
+php_flag session.use_trans_sid 0
+Options +FollowSymLinks
+RewriteEngine On
+
+# site
+# redirect to home
+RewriteRule ^$                                  home [L]
+RewriteRule ^index.php?(.*)$                    home [NC,L]
+
+# home
+RewriteRule ^home$                              Controller/Page/Home.php?l=en [L]
