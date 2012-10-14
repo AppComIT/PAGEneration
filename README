@@ -4,3 +4,6 @@ When you clone / download this example make sure that your _SYSTEM_FOLDER consta
 
 const _SYSTEM_FOLDER = "PAGEneration/";
 
+If PAGEneration is installed in your virtual host root directory you should use:
+
+const _SYSTEM_FOLDER = "/";
