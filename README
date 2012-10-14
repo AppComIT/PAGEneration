@@ -1,2 +1,6 @@
 Simple MVC (Model View Controller) Framework
 
+When you clone / download this example make sure that your _SYSTEM_FOLDER constant in file Controller/Config.php is configured properly
+
+const _SYSTEM_FOLDER = "PAGEneration/";
+
